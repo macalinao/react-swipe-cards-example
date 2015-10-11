@@ -19,7 +19,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "babel-node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp"
   },
   "author": "Ian Macalinao <me@ian.pw>",
   "license": "MIT"
