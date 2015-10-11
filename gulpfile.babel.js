@@ -11,10 +11,13 @@ gulp.task('clean', (cb) => {
 });
 
 gulp.task('build', ['clean'], () => {
-  const b = browserify();
-  b.transform(babelify);
-  b.add('src/app.jsx');
-  return b.bundle()
+  const extensions = ['.js', '.jsx'];
+  return browserify({ extensions })
+    .transform(babelify.configure({
+      extensions
+    }))
+    .require('./src/app.jsx', { entry: true })
+    .bundle()
     .pipe(source('app.js'))
     .pipe(gulp.dest('public/'));
 });
