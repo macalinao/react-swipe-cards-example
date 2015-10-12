@@ -3,7 +3,7 @@
 An example of using react-swipe-cards.
 
 ## Building
-Use `gulp` to build.
+First run `npm install`, then use `gulp` to build.
 
 ## License
 
