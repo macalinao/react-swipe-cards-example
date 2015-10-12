@@ -12,7 +12,7 @@
     "gulp": "^3.9.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-swipe-cards": "^1.0.0",
+    "react-swipe-cards": "git://github.com/simplyianm/react-swipe-cards.git",
     "rimraf": "^2.4.3",
     "vinyl-source-stream": "^1.1.0"
   },
