@@ -8,9 +8,6 @@ import SwipeCards from 'react-swipe-cards';
 
 const App = React.createClass({
 
-  componentDidMount() {
-  },
-
   render() {
     return (
       <div style={{ width: 300, margin: '0px auto' }}>
