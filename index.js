@@ -22,7 +22,6 @@ for (let i = 0; i < 5; i++) {
   });
 }
 
-
 app.get('/cards', (req, res) => {
   res.json({
     data: cards
