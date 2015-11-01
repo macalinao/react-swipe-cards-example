@@ -18,7 +18,7 @@ const App = React.createClass({
 
 });
 
-$.get('/cards', (data) => {
+$.get('/cards', data => {
   ReactDOM.render(
     <App cards={data.data} />,
     document.getElementById('reactContainer')
